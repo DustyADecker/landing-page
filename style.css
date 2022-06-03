@@ -1,0 +1,21 @@
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links,
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
