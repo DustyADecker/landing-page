@@ -2,6 +2,7 @@
     font-family: Roboto;
 }
 
+
 .top {
     background-color: #1F2937 ;
 }
@@ -9,6 +10,8 @@
     display: flex;
     flex-flow: column wrap;
     margin-left: 12px;
+    margin: 16px 12px;
+    width: 400px;
 }
 .centerleft .headermain {
     font-size: 48px;
@@ -40,6 +43,7 @@
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    margin-left: -24px;
 }
 
 ul {
@@ -58,8 +62,8 @@ ul {
 }
 
 img {
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 600px;
     border-radius: 32px;
     margin-right: 12px;
 }
@@ -68,4 +72,76 @@ img {
     display: flex;
     justify-content: space-between;
     gap: 32px;
+}
+
+.middle {
+    width: 1077px;
+}
+.middleheader {
+    text-align: center;
+}
+
+.middleimages {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 auto;
+}
+
+
+.middletext {
+    background-color: lightgray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    margin: 32px 0px;
+}
+
+.text {
+    display: flex;
+    flex-basis: 300px;
+    font-size: larger;
+}
+
+.signed {
+    align-self: flex-end;
+}
+
+.banner {
+    display: flex;
+    background-color: rgb(51, 147, 206);
+    color: white;
+    font-weight: bold;
+    margin: 32px;
+}
+.secondline {
+    font-weight: 300;
+}
+
+.leftside {
+    margin-left: 16px;
+}
+.rightside {
+    margin-left: auto;
+    display: flex;
+    margin-right: 16px;
+    align-self: center;
+    padding: 8px;
+}
+
+.signupbottom {
+    padding:4px 16px;
+    color: white;
+    background-color: rgb(51, 147, 206);
+    border: solid white;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    padding: 12px;
+    color: whitesmoke;
+    text-align: center;
 }
