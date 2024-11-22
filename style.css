@@ -61,9 +61,14 @@ ul {
     margin-right: 24px;
 }
 
+.centerright img {
+    height: auto;
+    width: 500px;
+}
+
 img {
-    height: 300px;
-    width: 600px;
+    height: auto;
+    width: 300px;
     border-radius: 32px;
     margin-right: 12px;
 }
@@ -74,20 +79,22 @@ img {
     gap: 32px;
 }
 
-.middle {
-    width: 1077px;
-}
+
 .middleheader {
     text-align: center;
 }
 
 .middleimages {
     display: flex;
-    max-width: 100%;
-    height: auto;
-    flex: 1 1 auto;
+    flex: 1;
+    text-align: center;
+    justify-content: space-between;
 }
 
+.imagescolumn {
+    display: flex;
+    flex-direction: column;
+}
 
 .middletext {
     background-color: lightgray;
